@@ -1,0 +1,12 @@
+﻿.Chat {
+    display: flex;
+    flex-direction: column;
+
+    :global(.Input) {
+        order: 1;
+    }
+
+    :global(.MessageList) {
+        order: 2;
+    }
+}
